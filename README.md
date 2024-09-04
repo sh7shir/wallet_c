@@ -1,4 +1,35 @@
-Developer Doc
+**User Manual**
+
+Introduction
+This document is to provide an idea about how the Program will run and details 
+about the functions to make it easier for the user to use the program.
+
+Menu:
+Upon clicking on “Build and run” from Codeblocks or double clicking on
+wallet.exe, a command line (CMD) windows appears that work as a simple menu 
+driven program.
+User can select numbers (1-4 & 0) to use the program. 
+
+1. View Wallet
+User gets a unique wallet number by default and can edit his address and phone number from the Update Wallet info (2). Users can check their wallet information selecting 1 and press enter.
+
+2. Make a Transaction
+Deposit (Add) or withdraw (Remove) money from/to the wallet selecting a 
+specific category and the date will be automatically be date on operating system .
+
+3. List Transactions
+Users can check their incoming and outgoing transactions from the 
+transaction list selecting 6 on keyboard.
+
+4. Sort By expense
+Users can sort their incomes and expenses by descending order by pressing 5 on keyboard and pressing enter. This showing the large expenses and small expenses and incomes.
+
+5. Exit
+Closes the program
+
+
+
+**Developer Doc**
 
 Getting Started
 The “Wallet App” is a combination of functions written in C and compiled with GCC as a command line program that uses file handling and dynamic memory allocation to store and show relevant data upon user request directly from CMD and updates the edit/updates to existing .txt file to store the data.
